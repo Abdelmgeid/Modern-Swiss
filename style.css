@@ -158,9 +158,6 @@ header .content p {
 	font-size: 20px;
 	color: #fff;
 }
-header .content a {
-	margin-top: 5px;
-}
 
 /*End Header*/
 
@@ -176,6 +173,7 @@ header .content a {
 	font-size: 45px;
 	color: #000;
 	font-weight: 600;
+	margin-top: 15px;
 	letter-spacing: 1px;
 }
 
@@ -300,6 +298,7 @@ header .content a {
 
 #contect .container {
 	max-width: 900px;
+	margin-top: 2px;
 }
 
 #contect .contect-content {
@@ -403,22 +402,22 @@ textarea {
 /*Tablet Responsive*/
 @media (max-width: 768px) {
 	.container {
-		max-width: 100%;
+		max-width: 90%;
 		margin-top: 40px;
 	}
 	/*Start Header*/
 	header {
 		height: 90vh;
-		background: url(./image/restaurant.png) center center/cover no-repeat;
-		margin: 0px 25px;
+		background: url(./image/watches1.png) center center/cover no-repeat;
 	}
 	#navbar {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding-right: 70px;
-		width: 90%;
+		padding-right: 100px;
+		width: 100%;
 		z-index: 1;
+		margin-top: 10px;
 	}
 
 	#navbar a img {
@@ -450,7 +449,7 @@ textarea {
 	}
 
 	#navbar ul li a {
-		padding: 10px 10px;
+		padding: 10px;
 		color: #fff;
 		font-weight: 600;
 		font-size: 20px;
@@ -466,18 +465,17 @@ textarea {
 		justify-content: center;
 		align-items: center;
 		height: 50%;
+		margin: auto;
 	}
 
 	header .content h1 {
 		font-size: 30px;
+		color: #2a639b;
 	}
 
 	header .content p {
 		margin: 8px 0;
 		color: #f5f508;
-	}
-	header .content a {
-		margin-top: 4px;
 	}
 
 	/*End Header*/
@@ -485,7 +483,7 @@ textarea {
 	/*Start watches*/
 	#watches {
 		padding: 10px 0;
-		background-color: #ddd;
+		background-color: #9c9898;
 	}
 
 	#watches h1 {
@@ -727,7 +725,7 @@ textarea {
 	/*Start Header*/
 	header {
 		height: 85vh;
-		background: url(./image/restaurant.png) center center/cover no-repeat;
+		background: url(./image/watches1.png) center center/cover no-repeat;
 		margin: 0px;
 	}
 
@@ -735,8 +733,8 @@ textarea {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding-right: 50px;
-		width: 90%;
+		padding-right: 20px;
+		width: 100%;
 		z-index: 1;
 	}
 
@@ -785,18 +783,18 @@ textarea {
 		justify-content: center;
 		align-items: center;
 		height: 50%;
+		margin: auto;
 	}
 
 	header .content h1 {
 		font-size: 25px;
+		color: #3206f8;
 	}
 
 	header .content p {
 		margin: 8px 0;
-		color: #f5f508;
-	}
-	header .content a {
-		margin-top: 4px;
+		color: #fff;
+		font-size: 18px;
 	}
 
 	/*End Header*/
